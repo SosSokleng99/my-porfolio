@@ -46,7 +46,7 @@ export default function Home() {
           </div>
 
           <div className={styles.hello}>Hello, I'm</div>
-          <h1>{`<Sos Sokleng />`}</h1>
+          <div className={styles.name}> {`<Sos Sokleng />`}</div>
           <div className={styles.role}>Digital Maketing Specialist & Front-End Developer</div>
           <div className={styles.links_container}>
             <button className={styles.link_btn}>
