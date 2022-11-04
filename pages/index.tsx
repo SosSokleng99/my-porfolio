@@ -4,9 +4,11 @@ import styles from '../styles/Home.module.css'
 
 import profileIMG from '../img/Profile.jpg'
 import { FacebookOutlined, GitHub, Instagram, LinkedIn, SimCardDownload } from '@mui/icons-material';
+import Tooltip from '@mui/material/Tooltip';
+
 import { style } from '@mui/system';
 
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 
@@ -50,37 +52,55 @@ export default function Home() {
           <div className={styles.name}> {`<Sos Sokleng />`}</div>
           <div className={styles.role}>Digital Maketing Specialist & Front-End Developer</div>
           <div className={styles.links_container}>
-            <button className={styles.link_btn}>
-              <a href="https://www.facebook.com/sossokleng">
-                <FacebookOutlined fontSize='large' />
-              </a>
-            </button>
 
-            <button className={styles.link_btn}>
-              <a href="https://www.instagram.com/soklengsos">
-                <Instagram fontSize='large' />
-              </a>
-            </button>
+            <Tooltip title='Facebook'>
+              <button className={styles.link_btn}>
+                <a href="https://www.facebook.com/sossokleng">
+                  <FacebookOutlined fontSize='large' />
+                </a>
+              </button>
+            </Tooltip>
 
-            <button className={styles.link_btn}>
-              <a href="https://github.com/SosSokleng99">
-                <GitHub fontSize='large' />
-              </a>
-            </button>
-            <button className={styles.link_btn}>
-              <a href="https://www.linkedin.com/in/sokleng-sos-0346a4152">
-                <LinkedIn fontSize='large' />
-              </a>
-            </button>
-            <button className={styles.link_btn}>
-              <a href="#">
-                <SimCardDownload fontSize='large' />
-              </a>
-            </button>
+            <Tooltip title='Instagram'>
+              <button className={styles.link_btn}>
+                <a href="https://www.instagram.com/soklengsos">
+                  <Instagram fontSize='large' />
+                </a>
+              </button>
+            </Tooltip>
+
+            <Tooltip title='GitHub'>
+              <button className={styles.link_btn}>
+                <a href="https://github.com/SosSokleng99">
+                  <GitHub fontSize='large' />
+                </a>
+              </button>
+            </Tooltip>
+
+            <Tooltip title='Linkedin'>
+              <button className={styles.link_btn}>
+                <a href="https://www.linkedin.com/in/sokleng-sos-0346a4152">
+                  <LinkedIn fontSize='large' />
+                </a>
+              </button>
+            </Tooltip>
+
+            <Tooltip title='Download my CV'>
+              <button className={styles.link_btn}>
+                <a href="#">
+                  <SimCardDownload fontSize='large' />
+                </a>
+              </button>
+            </Tooltip>
+
           </div>
 
+
           <Link to="about" spy={true} smooth={true}>
-             <div className={styles.arrow_cta}></div>
+            <Tooltip title='More about me'>
+              <div className={styles.arrow_cta}></div>
+            </Tooltip>
+
           </Link>
         </div>
         {/* <h2>Digital Maketing Specialist & Front-End Developer</h2> */}
