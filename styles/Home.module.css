@@ -1,4 +1,3 @@
-
 .hello {
   color: var(--main);
   font-size: 50px;
@@ -22,13 +21,13 @@
 
 .intro_container {
   text-align: center;
-    -webkit-text-stroke-width: medium;
-    position: relative;
-    top: 0px;
-    margin: 0px auto;
-    line-height: 3em;
-    /* width: 700px; */
-    height: 80vh;
+  -webkit-text-stroke-width: medium;
+  position: relative;
+  top: -100px;
+  margin: 0px auto;
+  line-height: 3em;
+  /* width: 700px; */
+  height: 80vh;
 }
 
 
@@ -42,6 +41,7 @@
   position: relative;
   margin: 40px auto;
 }
+
 
 .arrow_cta:after,
 .arrow_cta:before {
@@ -68,18 +68,22 @@
     opacity: 1;
     transform: translate(0, 0);
   }
+
   45% {
     opacity: 0;
     transform: translate(12px, 12px);
   }
+
   46% {
     opacity: 0;
     transform: translate(-16px, -16px);
   }
+
   90% {
     opacity: 1;
     transform: translate(-6px, -6px);
   }
+
   100% {
     opacity: 1;
     transform: translate(-6px, -6px);
@@ -98,13 +102,16 @@
   0% {
     transform: translate(-6px, -6px);
   }
+
   35% {
     transform: translate(0, 0);
   }
+
   90% {
     opacity: 1;
     transform: translate(0, 0);
   }
+
   100% {
     opacity: 1;
     transform: translate(0, 0);
@@ -112,24 +119,24 @@
 }
 
 .role {
-  color: var(--main);
+  text-align: center;
+  color: var(--secondary);
   font-size: 24px;
   font-weight: 300;
   text-transform: uppercase;
-  text-align: center;
-  margin: 18px auto;
-  color: var(--secondary);
+  margin: 12px 0;
 
 }
 
 .context {
-  
+
   width: 100%;
   position: absolute;
   top: 316px;
   background: rgb(206, 235, 238);
   background: var(--bg);
 }
+
 .context strong {
   color: var(--main);
 }
@@ -174,7 +181,7 @@
   position: relative;
   width: 220px;
   aspect-ratio: 1/1;
-  border-radius: 8px;
+  border-radius: 10px;
   object-fit: fill;
   overflow: hidden;
   margin: 0 auto;
@@ -184,24 +191,30 @@
 
 .navigate_links {
   color: var(--main);
-  position: absolute;
+  position: fixed;
   right: 0;
   BACKGROUND-COLOR: transparent;
   top: 0;
   text-align: right;
-  margin: 20px;
-  font-size: 24px;
+  margin: 8px;
+  font-size: 20px;
   font-weight: 600;
+  z-index: 99;
 }
 
 .navigate_links a {
-  color: var(--main);
+  color: var(--secondary);
   text-decoration: none;
+}
+
+.navigate_links a:hover {
+  color: var(--main);
+  text-decoration:underline;
 }
 
 
 .context_contents {
-  max-width: 950px;
+  max-width: 768px;
   margin: 70px auto;
 }
 
@@ -374,10 +387,15 @@
 }
 
 .about_container {
-  margin: 70px auto;
-  padding: 0 12px;
+  margin: 0px auto 70px auto;
+
+  padding: 1px 12px;
 
 
+}
+
+.stacks_container {
+  padding: 1px;
 }
 
 .stacks_wrapper {
@@ -388,8 +406,6 @@
   font-size: 0.9em;
   color: var(--main);
   font-weight: 600;
-
-  margin: 70px auto;
 
 }
 
@@ -403,7 +419,9 @@
 .works_container {
   margin: 70px auto;
   color: var(--main);
+  padding: 1px;
 }
+
 .work_card span {
   font-weight: 600;
   color: var(--main);
@@ -416,7 +434,7 @@
 }
 
 .work_card {
-  border-left:0.005rem solid var(--secondary);
+  border-left: 0.005rem solid var(--secondary);
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -467,10 +485,20 @@
 
 @media (max-width: 768px) {
 
-  .context_contents {
-    max-width: 700px;
+  .role {
+    font-size: 22px;
   }
 
+  .context_contents {
+    max-width: 590px;
+  }
+
+}
+
+@media (max-width: 648px) {
+  .navigate_links {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 600px) {
@@ -478,6 +506,7 @@
   .context h1 {
     font-size: 42px;
   }
+
   .role {
     font-size: 15px;
     font-weight: 200;

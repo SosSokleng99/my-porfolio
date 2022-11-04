@@ -6,6 +6,9 @@ import profileIMG from '../img/Profile.jpg'
 import { FacebookOutlined, GitHub, Instagram, LinkedIn, SimCardDownload } from '@mui/icons-material';
 import { style } from '@mui/system';
 
+import {Link} from 'react-scroll'
+
+
 
 
 
@@ -29,11 +32,10 @@ export default function Home() {
       </div >
 
       <div className={styles.navigate_links}>
-        <div><a href="#">About</a></div>
-        <div><a href="#">Qualifications</a></div>
-        <div><a href="#">Tech Stack</a></div>
-        <div><a href="#">Works</a></div>
-        <div><a href="#">Contact</a></div>
+        <div><a href="#"> <Link to="about" spy={true} smooth={true}>About</Link></a></div>
+        <div><a href="#"><Link to="stacks" spy={true} smooth={true}>Stacks</Link></a></div>
+        <div><a href="#"><Link to="works" spy={true} smooth={true}>Works</Link></a></div>
+        <div><a href="#"><Link to="contact" spy={true} smooth={true}>Contact</Link></a></div>
       </div>
 
       <div className={styles.bg_blend}>
@@ -42,7 +44,6 @@ export default function Home() {
         <div className={styles.intro_container}>
           <div className={styles.profile_circle}>
             <Image src={profileIMG} objectFit="contain" layout='fill' alt='Profile' />
-            {/* <span>S12</span> */}
           </div>
 
           <div className={styles.hello}>Hello, I'm</div>
@@ -72,18 +73,21 @@ export default function Home() {
               </a>
             </button>
             <button className={styles.link_btn}>
-              <a href="https://www.facebook.com/sossokleng">
+              <a href="#">
                 <SimCardDownload fontSize='large' />
               </a>
             </button>
           </div>
-          <div className={styles.arrow_cta}></div>
+
+          <Link to="about" spy={true} smooth={true}>
+             <div className={styles.arrow_cta}></div>
+          </Link>
         </div>
         {/* <h2>Digital Maketing Specialist & Front-End Developer</h2> */}
 
         <div className={styles.context_contents}>
 
-          <div className={styles.about_container}>
+          <div id='about' className={styles.about_container}>
             <h2>About</h2>
             <p>
               A hard working, self-driven and fast learner individual. Able to work independently and part of a team. Experinced in Digital Marketing, Wordpress, SEO, extensive knowledge
@@ -91,8 +95,8 @@ export default function Home() {
             </p>
 
           </div>
-          <div className={styles.stacks_container}>
-            <h2>Tech Stack</h2>
+          <div id='stacks' className={styles.stacks_container}>
+            <h2>Stacks</h2>
             <div className={styles.stacks_wrapper}>
               <div className={styles.stacks_card}><span>Html, Css</span></div>
               <div className={styles.stacks_card}><span>JavaScript, TypeScript, Node JS</span></div>
@@ -103,7 +107,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={styles.works_container}>
+          <div id='works' className={styles.works_container}>
             <h2>Works</h2>
 
             <div className={styles.line_break}></div>
@@ -156,7 +160,7 @@ export default function Home() {
 
           </div>
 
-          <div className={styles.contact_container}>
+          <div id='contact' className={styles.contact_container}>
             <h2>Contact</h2>
             <div className={styles.contact_list}>
               <div className={styles.stacks_card}><span>+855 86 322 200</span></div>
