@@ -149,9 +149,7 @@ export default function Home() {
             <div className={styles.work_card}>
               <strong>Digital Marketing Specialist | vKirirom Pine Resort  </strong>
               <p className={styles.p_ws}>2021 - Present</p>
-              <p>Started a digital agency building websites and marketing for
-                local businesses. Mostly Wordpress sites with small modifications to
-                themes.</p>
+              <p>Worked as an assisant to Business Development Manager of the resort focusing on create content and running Social Media Marketing mainly Facebook, Instagram and Tiktok. Responsible for managing resort’s Wordpress Website and others digital related works.</p>
               <ul>
                 <li>Leading and training internship students for producing marketing materials for the resort.</li>
                 <li>Worked a Video Creator, Photographer, Graphic Designer, and Writer for producing marketing materials for the resort Social Media Presences</li>
