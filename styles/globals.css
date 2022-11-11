@@ -10,10 +10,11 @@
   --secondary: #6D6E71;
   --light: #fff;
   --linear-gredient: linear-gradient(180deg, rgba(206, 235, 238, 0) 0%, rgba(206, 235, 238, 0.96) 13.99%, rgba(206, 235, 238, 0.54) 26.85%, #CEEBEE 100%);
+  --lightOpacityAdj: hsla(0, 0%, 100%, 0.541);
 }
 
 html,
-body {
+body { 
   padding: 0;
   margin: 0;
   font-family: 'Rubik', sans-serif;

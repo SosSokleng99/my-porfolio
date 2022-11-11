@@ -38,9 +38,26 @@
   width: 13px;
   border: 11px solid transparent;
   transform: rotate(45deg);
-  position: relative;
-  margin: 40px auto;
+  /* position: absolute; */
+  margin: 0 auto; 
 }
+
+.hover_arrow_bg {
+  background-color: transparent;
+  opacity: 1;
+  width: 100vw;
+  height: 48px;
+  position: relative;
+  margin:  20px auto;
+  text-align: center;
+  /* transform: rotate(0deg); */
+}
+
+.hover_arrow_bg:hover {
+  background-color: var(--lightOpacityAdj);
+}
+
+
 
 
 .arrow_cta:after,

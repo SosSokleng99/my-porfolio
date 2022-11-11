@@ -98,9 +98,11 @@ export default function Home() {
 
           <Link to="about" spy={true} smooth={true}>
             <Tooltip title='More about me'>
-              <div className={styles.arrow_cta}></div>
-            </Tooltip>
+            <div className={styles.hover_arrow_bg}>
+               <div className={styles.arrow_cta}></div>
+            </div>
 
+            </Tooltip>
           </Link>
         </div>
         {/* <h2>Digital Maketing Specialist & Front-End Developer</h2> */}
