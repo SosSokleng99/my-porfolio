@@ -513,6 +513,9 @@
 }
 
 @media (max-width: 648px) {
+  .intro_container {
+    top: -130px;
+  }
   .navigate_links {
     visibility: hidden;
   }
@@ -527,6 +530,9 @@
   .role {
     font-size: 15px;
     font-weight: 200;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
   }
 
 }
