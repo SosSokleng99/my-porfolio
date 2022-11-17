@@ -87,7 +87,7 @@ export default function Home() {
 
             <Tooltip title='Download my CV'>
               <button className={styles.link_btn}>
-                <a href="https://firebasestorage.googleapis.com/v0/b/instagram-firebase-25884.appspot.com/o/Sos%20Sokleng%20CV%201%20PageCV.pdf?alt=media&token=1114fe85-9f90-44f0-81ea-4540feaf4889">
+                <a href="https://firebasestorage.googleapis.com/v0/b/instagram-firebase-25884.appspot.com/o/SOS%20SOKLENG%20CV%20-%20November%202022.pdf?alt=media&token=86ebc034-7e90-4515-ade3-7543f9b52d63">
                   <SimCardDownload fontSize='large' />
                 </a>
               </button>
@@ -121,7 +121,9 @@ export default function Home() {
             <h2>Stacks</h2>
             <div className={styles.stacks_wrapper}>
               <div className={styles.stacks_card}><span>Html, Css</span></div>
+              <div className={styles.stacks_card}><span>TailwindCss, Bootstrap</span></div>
               <div className={styles.stacks_card}><span>JavaScript, TypeScript, Node JS</span></div>
+              <div className={styles.stacks_card}><span>Vue JS, Vuex</span></div>
               <div className={styles.stacks_card}><span>React JS, Next JS</span></div>
               <div className={styles.stacks_card}><span>Firebase, Supabase</span></div>
               <div className={styles.stacks_card}><span>Wordpress</span></div>
@@ -135,12 +137,13 @@ export default function Home() {
             <div className={styles.line_break}></div>
 
             <div className={styles.work_card}>
-              <strong>Building Hulu Clone Web App</strong>
-              <p className={styles.p_ws}> 2022 </p>
-              <p>Personal Learning Project</p>
+              <strong>Building Movie Trailer Web Application | Personal Project</strong>
+              <p className={styles.p_ws}>October 2022 </p>
+              <p>Genuinely interested in Next JS Framework and would like equip my skill in Front-end technologies</p>
               <ul>
-                <li>Working to create an aesthetic, user-friendly and fully responsiveness Movie Website inspired by Hulu.com</li>
-                <li>Technology employed were HTML5, Pure CSS3 and Nextjs</li>
+                <li>Design and Building an aesthetic, user-friendly and fully responsiveness user interface Movie Trailer Web application</li>
+                <li>Technology employed were HTML5, Pure CSS3 and Nextjs with TypeScript</li>
+                <li><span>Check out the UI/UX Design:</span> <a href="https://www.figma.com/file/r1wXRoUxq0OzQ3HssO5BLI/HULU-CLONE?node-id=0%3A1&t=8apkiPLCrBoAZStW-1">Figma</a></li>
                 <li><span>Check out my Demo:</span> <a href="">https://huluc2.vercel.app/</a></li>
               </ul>
 
@@ -150,27 +153,24 @@ export default function Home() {
 
             <div className={styles.work_card}>
               <strong>Digital Marketing Specialist | vKirirom Pine Resort  </strong>
-              <p className={styles.p_ws}>2021 - Present</p>
-              <p>Worked as an assisant to Business Development Manager of the resort focusing on create content and running Social Media Marketing mainly Facebook, Instagram and Tiktok. Responsible for managing resort’s Wordpress Website and others digital related works.</p>
+              <p className={styles.p_ws}>January 2021 - Present</p>
+              <p>Work as an assisant to Business Development Manager of the resort responsible for managing resort’s Wordpress Website works, digital marketing and other digital related works.</p>
               <ul>
-                <li>Leading and training internship students for producing marketing materials for the resort.</li>
-                <li>Worked a Video Creator, Photographer, Graphic Designer, and Writer for producing marketing materials for the resort Social Media Presences</li>
-                <li>Responsible for update contents, organized SEO for Local and Global Scale and Wordpress works such as customize theme and using plugins</li>
-                <li>Responsible for resort Online Travel Agents  presence like Agoda, Booking.com, and Trip.com</li>
-                <li>Preparing weekly social media marketing campagin reports</li>
-                <li>Running Meta paid advertisment for the resort using Meta Ads Manager on the locale scale</li>
+                <li>Responsible for Wordpress works such as customize theme and using plugins</li>
+                <li>Organized resort’s website SEO  campaigns on a locale and global scale.</li>
               </ul>
             </div>
 
             <div className={styles.line_break}></div>
 
             <div className={styles.work_card}>
-              <strong>Social Marketing Intern | Kirirom Institute of Technology</strong>
-              <p className={styles.p_ws}>2018 - 2020</p>
-              <p>Worked as an Team leader in interntership under my institute internship program focused on running their Facebook marketing to promote institute Sponsorship Program to Locale students in order to register and join the their Extrance Exam.</p>
+              <strong>Front-end Development Internship | vKirirom Pine Resort</strong>
+              <p className={styles.p_ws}>January 2019 - August 2019</p>
+              <p>Worked as a part of the team in internship Project building Hotel Booking Website for vKirirom Pine Resort.</p>
               <ul>
-                <li>Being a leader, motivator, planner and step foot in to help the team to producing marketing materials such as Video, Poster, Photograph and Written word.</li>
-                <li>Prepare weekly and quarter Facebook marketing KPI Reports and present it to Internship Coordinator.</li>
+                <li>Building User Interface Component for the Website</li>
+                <li>Technology employed Vue JS,  Bootstrap and Vuex for state management</li>
+                <li>Used Source Code Control Tool Github</li>
               </ul>
 
             </div>
