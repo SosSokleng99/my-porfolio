@@ -87,7 +87,7 @@ export default function Home() {
 
             <Tooltip title='Download my CV'>
               <button className={styles.link_btn}>
-                <a href="https://firebasestorage.googleapis.com/v0/b/instagram-firebase-25884.appspot.com/o/SOS%20SOKLENG%20CV%20-%20November%202022.pdf?alt=media&token=86ebc034-7e90-4515-ade3-7543f9b52d63">
+                <a href="https://firebasestorage.googleapis.com/v0/b/instagram-firebase-25884.appspot.com/o/SOS%20SOKLENG%20CV%20-%20November%202022.pdf?alt=media&token=2576e8a8-15d0-42bd-aabc-436e68c6f7d4">
                   <SimCardDownload fontSize='large' />
                 </a>
               </button>
