@@ -144,7 +144,7 @@ export default function Home() {
                 <li>Design and Building an aesthetic, user-friendly and fully responsiveness user interface Movie Trailer Web application</li>
                 <li>Technology employed were HTML5, Pure CSS3 and Nextjs with TypeScript</li>
                 <li><span>Check out the UI/UX Design:</span> <a href="https://www.figma.com/file/r1wXRoUxq0OzQ3HssO5BLI/HULU-CLONE?node-id=0%3A1&t=8apkiPLCrBoAZStW-1">Figma</a></li>
-                <li><span>Check out my Demo:</span> <a href="">https://huluc2.vercel.app/</a></li>
+                <li><span>Check out my Demo:</span> <a href="">https://huluc2.vercel.app</a></li>
               </ul>
 
             </div>
@@ -183,7 +183,7 @@ export default function Home() {
           <div id='contact' className={styles.contact_container}>
             <h2>Contact</h2>
             <div className={styles.contact_list}>
-              <div className={styles.stacks_card}><span>+855 86 322 200</span></div>
+              <div className={styles.stacks_card}><span>+855 81 322 200</span></div>
               {/* <div className={styles.stacks_card}><span>Html, Css</span></div> */}
               <div className={styles.stacks_card}><span>sos.sokleng@gmail.com</span></div>
             </div>
