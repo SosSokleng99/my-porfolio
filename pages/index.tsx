@@ -144,7 +144,7 @@ export default function Home() {
                 <li>Design and Building an aesthetic, user-friendly and fully responsiveness user interface Movie Trailer Web application</li>
                 <li>Technology employed were HTML5, Pure CSS3 and Nextjs with TypeScript</li>
                 <li><span>Check out the UI/UX Design:</span> <a href="https://www.figma.com/file/r1wXRoUxq0OzQ3HssO5BLI/HULU-CLONE?node-id=0%3A1&t=8apkiPLCrBoAZStW-1">Figma</a></li>
-                <li><span>Check out my Demo:</span> <a href="">https://huluc2.vercel.app</a></li>
+                <li><span>Check out my Demo:</span> <a href="https://huluc2.vercel.app">DEMO</a></li>
               </ul>
 
             </div>
